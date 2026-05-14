@@ -11,23 +11,9 @@ Sistem, hasta kabulünden doktor planlamasına kadar veri tutarlılığını (Tr
 - **Hasta Sonuç ve Geçmişi:** Hastaların TC Kimlik numaraları ile geçmiş randevularını, doktor bilgilerini, şikayetlerini ve varsa yazılan **reçeteleri/kullanım talimatlarını** görebildikleri ekran.
 - **Doktor Günlük Planı:** Doktorların kendi ID'lerine göre sistemi filtreleyip, sadece **o güne ait (GETDATE())** randevulu hastalarını, saat ve kan grubu bilgileriyle takip edebildikleri yönetim paneli.
 
+## 📸 Uygulama Ekran Görüntüleri
 
-
-##  Mimari Dosya ve Klasör Yapısı
-
-```text
-📦 ASP.NET Core MVC Proje Klasörü
- ┣ 📂 Controllers/        # Arka plan iş mantığı (HomeController.cs)
- ┣ 📂 Models/             # Veritabanı taşıyıcı sınıfları (HastaneModelleri.cs)
- ┣ 📂 Views/              # Arayüz tasarımları ve Razor sayfaları
- ┃ ┗ 📂 Home/             # (Index, Doktorlar, RandevuAl, HastaGecmisi, GunlukPlan .cshtml)
- ┣ 📂 image/              # Proje ve veritabanı ekran görüntüleri
- ┣ 📜 HastaneDB.sql       # MS SQL veritabanı kurulum scripti (DDL & DML)
- ┗ 📜 README.md           # Proje dökümantasyonu
-
-##  Uygulama Ekran Görüntüleri
-
-### 1. Web Arayüzü (MVC Views)
+### 1. Web Arayüzü (Frontend)
 
 **Klinik Listesi (Ana Sayfa)**
 ![Ana Sayfa](image/anasayfa.png)
@@ -62,3 +48,16 @@ Sistem, hasta kabulünden doktor planlamasına kadar veri tutarlılığını (Tr
 
 **Reçeteler Tablosu**
 ![Reçeteler Tablosu](image/receteler.png)
+
+##  Mimari Dosya ve Klasör Yapısı
+
+```text
+📦 ASP.NET Core MVC Proje Klasörü
+ ┣ 📂 Controllers/        # Arka plan iş mantığı (HomeController.cs)
+ ┣ 📂 Models/             # Veritabanı taşıyıcı sınıfları (HastaneModelleri.cs)
+ ┣ 📂 Views/              # Arayüz tasarımları ve Razor sayfaları
+ ┃ ┗ 📂 Home/             # (Index, Doktorlar, RandevuAl, HastaGecmisi, GunlukPlan .cshtml)
+ ┣ 📂 image/              # Proje ve veritabanı ekran görüntüleri
+ ┣ 📜 HastaneDB.sql       # MS SQL veritabanı kurulum scripti (DDL & DML)
+ ┗ 📜 README.md           # Proje dökümantasyonu
+
