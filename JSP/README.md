@@ -25,27 +25,6 @@ Sistem; şehirleri, buralarda gezilmesi gereken mekanları, bu mekanlarda düzen
 \- \*\*Arama ve Gelişmiş Filtreleme:\*\* Kullanıcıların coğrafi bölgelere veya doğrudan mekan türlerine (Müze/Park/Restoran) göre arama yapmasını sağlayan dinamik sonuç sayfası.
 
 
-
-
-
-\##  Dosya ve Klasör Yapısı
-
-
-
-```text
-
-📦 JSP Proje Klasörü
-
-&#x20;┣ 📂 gezi\_rotasi/        # Tüm JSP kaynak dosyaları (index.jsp, sehirDetay.jsp vb.)
-
-&#x20;┣ 📂 image/              # Proje arayüzü ve PostgreSQL veritabanı ekran görüntüleri
-
-&#x20;┣ 📜 PostgreSQL.sql      # Tablo şemalarını ve test verilerini barındıran SQL dosyası
-
-&#x20;┗ 📜 README.md           # Proje dökümantasyonu
-
-
-
 **##  Uygulama Ekran Görüntüleri**
 
 
@@ -119,4 +98,25 @@ Sistem; şehirleri, buralarda gezilmesi gereken mekanları, bu mekanlarda düzen
 **\*\*Şehir - Rehber Eşleşme Tablosu (Many-to-Many İlişki)\*\***
 
 **!\[Şehir Rehber Eşleşme](image/sehirrehberesleme.png)**
+
+
+\##  Dosya ve Klasör Yapısı
+
+
+
+```text
+
+📦 JSP Proje Klasörü
+
+&#x20;┣ 📂 gezi\_rotasi/        # Tüm JSP kaynak dosyaları (index.jsp, sehirDetay.jsp vb.)
+
+&#x20;┣ 📂 image/              # Proje arayüzü ve PostgreSQL veritabanı ekran görüntüleri
+
+&#x20;┣ 📜 PostgreSQL.sql      # Tablo şemalarını ve test verilerini barındıran SQL dosyası
+
+&#x20;┗ 📜 README.md           # Proje dökümantasyonu
+
+
+
+
 
