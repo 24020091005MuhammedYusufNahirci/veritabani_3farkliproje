@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\3 farkl\u0131 proje\\asp\\klinik\\klinik\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|solutionrelative:klinik\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\3 farkl\u0131 proje\\asp\\klinik\\klinik\\views\\home\\gunlukplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|solutionrelative:klinik\\views\\home\\gunlukplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\3 farkl\u0131 proje\\asp\\klinik\\klinik\\views\\home\\hastagecmisi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|solutionrelative:klinik\\views\\home\\hastagecmisi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\3 farkl\u0131 proje\\asp\\klinik\\klinik\\views\\home\\randevual.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|solutionrelative:klinik\\views\\home\\randevual.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\3 farkl\u0131 proje\\asp\\klinik\\klinik\\views\\home\\doktorlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|solutionrelative:klinik\\views\\home\\doktorlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\3 farkl\u0131 proje\\asp\\klinik\\klinik\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|solutionrelative:klinik\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\3 farkl\u0131 proje\\asp\\klinik\\klinik\\models\\hastanemodelleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08245A8-EDDC-4B5F-B5E0-85557F5466FD}|klinik\\klinik.csproj|solutionrelative:klinik\\models\\hastanemodelleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GunlukPlan.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\GunlukPlan.cshtml",
+              "RelativeDocumentMoniker": "klinik\\Views\\Home\\GunlukPlan.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\GunlukPlan.cshtml",
+              "RelativeToolTip": "klinik\\Views\\Home\\GunlukPlan.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T18:03:27.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HastaGecmisi.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\HastaGecmisi.cshtml",
+              "RelativeDocumentMoniker": "klinik\\Views\\Home\\HastaGecmisi.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\HastaGecmisi.cshtml",
+              "RelativeToolTip": "klinik\\Views\\Home\\HastaGecmisi.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T18:03:10.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandevuAl.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\RandevuAl.cshtml",
+              "RelativeDocumentMoniker": "klinik\\Views\\Home\\RandevuAl.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\RandevuAl.cshtml",
+              "RelativeToolTip": "klinik\\Views\\Home\\RandevuAl.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T18:02:53.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doktorlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\Doktorlar.cshtml",
+              "RelativeDocumentMoniker": "klinik\\Views\\Home\\Doktorlar.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\Doktorlar.cshtml",
+              "RelativeToolTip": "klinik\\Views\\Home\\Doktorlar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T18:02:35.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "klinik\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "klinik\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-14T17:57:43.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "klinik\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "klinik\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAKAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T17:57:06.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HastaneModelleri.cs",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Models\\HastaneModelleri.cs",
+              "RelativeDocumentMoniker": "klinik\\Models\\HastaneModelleri.cs",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\3 farkl\u0131 proje\\ASP\\klinik\\klinik\\Models\\HastaneModelleri.cs",
+              "RelativeToolTip": "klinik\\Models\\HastaneModelleri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T17:56:45.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

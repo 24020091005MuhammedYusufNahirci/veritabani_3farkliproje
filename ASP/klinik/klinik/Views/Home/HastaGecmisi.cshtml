@@ -1,0 +1,39 @@
+﻿@model IEnumerable<klinik.Models.RandevuGecmisi>
+@{ Layout = null; }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasta Geçmişi</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f4f8; padding: 40px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; }
+        .kart { padding: 20px; border-radius: 8px; margin-top: 15px; border-left: 5px solid #f59e0b; background: #fffbeb; }
+        .recete { background: #ecfdf5; padding: 15px; border-radius: 6px; margin-top: 10px; border: 1px dashed #10b981; }
+        .search { display: flex; gap: 10px; }
+        input[type="text"] { flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #ccc; }
+        .btn { background: #0284c7; color: white; padding: 10px 20px; border-radius: 6px; border:none; cursor: pointer;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/Home/Index" style="color:#0284c7; text-decoration:none;">← Ana Sayfa</a>
+        <h1 style="color:#0284c7;">📋 Hasta Geçmişi</h1>
+        <form method="GET" action="/Home/HastaGecmisi" class="search">
+            <input type="text" name="tcAranan" placeholder="TC Kimlik Numaranız..." value="@ViewBag.TC" required>
+            <button type="submit" class="btn">Sorgula</button>
+        </form>
+        @if(ViewBag.TC != null) {
+            foreach(var item in Model) {
+                <div class="kart">
+                    <h3 style="margin:0; color:#b45309;">@item.RandevuTarihi.ToString("dd.MM.yyyy HH:mm") - @item.KlinikAdi</h3>
+                    <p><strong>Doktor:</strong> @item.DoktorAdi <br><strong>Şikayet:</strong> @item.Sikayet</p>
+                    @if(item.IlacListesi != null) {
+                        <div class="recete"><strong style="color:#047857;">💊 Reçete:</strong> @item.IlacListesi <br><em>@item.KullanimTalimati</em></div>
+                    }
+                </div>
+            }
+            if(!Model.Any()) { <p>Kayıt bulunamadı.</p> }
+        }
+    </div>
+</body>
+</html>

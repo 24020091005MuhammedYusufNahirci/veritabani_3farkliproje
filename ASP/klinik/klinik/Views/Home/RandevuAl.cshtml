@@ -1,0 +1,40 @@
+﻿@{ Layout = null; }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Randevu Oluştur</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f4f8; padding: 40px; }
+        .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .form-group input, select, textarea { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; }
+        .btn { width: 100%; background: #0284c7; color: white; padding: 12px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/Home/Index" style="color:#0284c7; text-decoration:none;">← İptal Et</a>
+        <h1 style="color:#0284c7;">Randevu Kayıt Formu</h1>
+        @if(ViewBag.Hata != null) { <p style="color:red;">@ViewBag.Hata</p> }
+        <form method="POST" action="/Home/RandevuAl">
+            <input type="hidden" name="docId" value="@ViewBag.DocId" />
+            <div class="form-group"><label>TC Kimlik:</label><input type="text" name="tcKimlik" required maxlength="11"></div>
+            <div class="form-group"><label>Ad Soyad:</label><input type="text" name="adSoyad" required></div>
+            <div class="form-group"><label>Telefon:</label><input type="text" name="telefon" required></div>
+            <div class="form-group">
+                <label>Kan Grubu:</label>
+                <select name="kanGrubu">
+                    <option value="A+">A+</option><option value="A-">A-</option>
+                    <option value="B+">B+</option><option value="B-">B-</option>
+                    <option value="0+">0+</option><option value="0-">0-</option>
+                    <option value="AB+">AB+</option><option value="AB-">AB-</option>
+                </select>
+            </div>
+            <div class="form-group"><label>Tarih:</label><input type="datetime-local" name="tarih" required></div>
+            <div class="form-group"><label>Şikayet:</label><textarea name="sikayet" rows="3" required></textarea></div>
+            <button type="submit" class="btn">Randevuyu Onayla</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<klinik.Models.Klinik>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Klinikler</title>
+    <style>
+            body { font-family: 'Segoe UI', sans-serif; background-color: #f0f4f8; padding: 40px; }
+            .container { max-width: 1000px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+            h1 { color: #0284c7; }
+            .nav { display: flex; gap: 15px; margin-bottom: 30px; background: #e0f2fe; padding: 15px; border-radius: 8px; }
+            .nav a { color: #0284c7; text-decoration: none; font-weight: bold; }
+            .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+            .kart { padding: 20px; border-radius: 8px; border-left: 5px solid #0284c7; background: #f8fafc; }
+            .btn { background: #0284c7; color: white; padding: 8px 15px; border-radius: 6px; text-decoration: none; display: inline-block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/Home/Index">🏥 Klinikler</a>
+            <a href="/Home/HastaGecmisi">📋 Hasta Geçmişi</a>
+            <a href="/Home/GunlukPlan">👨‍⚕️ Doktor Paneli</a>
+        </div>
+        <h1>Hastane Randevu Sistemi</h1>
+        <div class="grid">
+            @foreach (var item in Model)
+            {
+                <div class="kart">
+                    <h2 style="margin-top:0; color:#0284c7;">@item.KlinikAdi</h2>
+                    <p>Uzmanlık: @item.Uzmanlik<br>Kat No: @item.KatNo</p>
+                    <a href="/Home/Doktorlar?clinicId=@item.ID" class="btn">Doktorları Gör</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

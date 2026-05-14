@@ -1,0 +1,41 @@
+create database mini_imdb;
+USE mini_imdb;
+
+CREATE TABLE Turler (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    TurAdi VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Yonetmenler (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    AdSoyad VARCHAR(150) NOT NULL,
+    DeneyimYili INT
+);
+
+CREATE TABLE Filmler (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    FilmAdi VARCHAR(255) NOT NULL,
+    YayinYili INT,
+    TurID INT,
+    YonetmenID INT,
+    Ozet TEXT,
+    Poster VARCHAR(255),
+    FOREIGN KEY (TurID) REFERENCES Turler(ID) ON DELETE SET NULL,
+    FOREIGN KEY (YonetmenID) REFERENCES Yonetmenler(ID) ON DELETE SET NULL
+);
+
+CREATE TABLE Oyuncular (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    OyuncuAdi VARCHAR(150) NOT NULL,
+    DogumTarihi DATE,
+    Biyografi TEXT
+);
+    
+CREATE TABLE Film_Oyunculari (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    FilmID INT,
+    OyuncuID INT,
+    RolAdi VARCHAR(100),
+    FOREIGN KEY (FilmID) REFERENCES Filmler(ID) ON DELETE CASCADE,
+    FOREIGN KEY (OyuncuID) REFERENCES Oyuncular(ID) ON DELETE CASCADE
+);

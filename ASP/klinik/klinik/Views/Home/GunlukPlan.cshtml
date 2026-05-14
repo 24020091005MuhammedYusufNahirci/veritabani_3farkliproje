@@ -1,0 +1,45 @@
+﻿@model IEnumerable<klinik.Models.GunlukPlanModel>
+@{ Layout = null; }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Günlük Plan</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f4f8; padding: 40px; }
+        .container { max-width: 900px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+        th { background-color: #0284c7; color: white; }
+        .btn { background: #0284c7; color: white; padding: 10px 15px; border-radius: 6px; border:none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/Home/Index" style="color:#0284c7; text-decoration:none;">← Ana Sayfa</a>
+        <h1 style="color:#0284c7;">👨‍⚕️ Günlük Randevu Planı (@DateTime.Now.ToString("dd.MM.yyyy"))</h1>
+        <form method="GET" action="/Home/GunlukPlan" style="margin-bottom: 20px;">
+            <select name="seciliDoktor" style="padding:10px; border-radius:6px; width:300px;">
+                <option value="">Doktor Seçiniz</option>
+                @foreach(var doc in ViewBag.Doktorlar) {
+                    <option value="@doc.ID" selected="@(ViewBag.SeciliDoktor == doc.ID ? "selected" : null)">@doc.AdSoyad</option>
+                }
+            </select>
+            <button type="submit" class="btn">Planı Getir</button>
+        </form>
+        @if(ViewBag.SeciliDoktor != null) {
+            <table>
+                <tr><th>Saat</th><th>TC Kimlik</th><th>Hasta Adı</th><th>Kan Grubu</th><th>Şikayet</th></tr>
+                @foreach(var p in Model) {
+                    <tr>
+                        <td><strong>@p.RandevuTarihi.ToString("HH:mm")</strong></td>
+                        <td>@p.TCKimlik</td><td>@p.HastaAdi</td>
+                        <td><span style="background:#ef4444; color:white; padding:2px 6px; border-radius:4px;">@p.KanGrubu</span></td>
+                        <td>@p.Sikayet</td>
+                    </tr>
+                }
+                @if(!Model.Any()) { <tr><td colspan="5" style="text-align:center;">Bugün randevu yok.</td></tr> }
+            </table>
+        }
+    </div>
+</body>
+</html>

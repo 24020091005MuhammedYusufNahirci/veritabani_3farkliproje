@@ -1,0 +1,31 @@
+﻿@model IEnumerable<klinik.Models.Doktor>
+@{ Layout = null; }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doktorlar</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f4f8; padding: 40px; }
+        .container { max-width: 1000px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;}
+        .kart { padding: 20px; border-radius: 8px; border-left: 5px solid #10b981; background: #f8fafc; }
+        .btn { background: #10b981; color: white; padding: 8px 15px; border-radius: 6px; text-decoration: none; display: inline-block; }
+        a { color: #0284c7; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/Home/Index">← Kliniklere Dön</a>
+        <h1 style="color:#0284c7;">🩺 @ViewBag.KlinikAdi - Doktorlarımız</h1>
+        <div class="grid">
+            @foreach(var doc in Model) {
+                <div class="kart">
+                    <h2 style="margin-top:0;">@doc.Unvan @doc.AdSoyad</h2>
+                    <a href="/Home/RandevuAl?docId=@doc.ID" class="btn">📅 Randevu Al</a>
+                </div>
+            }
+            @if(!Model.Any()) { <p>Kayıtlı doktor bulunamadı.</p> }
+        </div>
+    </div>
+</body>
+</html>
