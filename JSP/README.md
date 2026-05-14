@@ -27,83 +27,43 @@ Sistem; şehirleri, buralarda gezilmesi gereken mekanları, bu mekanlarda düzen
 
 
 
-**##  Uygulama Ekran Görüntüleri**
+## 📸 Uygulama Ekran Görüntüleri
 
+### 1. Web Arayüzü (Frontend)
 
+**Ana Sayfa - Film Vitrini**
+![Ana Sayfa](image/anasayfa.png)
 
-**### 1. Web Arayüzü (Frontend)**
+**Film Detay Sayfası (Yönetmen & Oyuncu Kadrosu)**
+![Film Detay](image/filmdetay.png)
 
+**Tüm Oyuncular Listesi**
+![Tüm Oyuncular Listesi](image/oyuncular.png)
 
+**Oyuncu Profil ve Biyografi Sayfası**
+![Oyuncu Profil ve Biyografi](image/oyuncudetay.png)
 
-**\*\*Ana Sayfa - Şehir Listesi\*\***
+**Film Düzenleme Formu**
+![Film Düzenleme Formu](image/düzenleme.png)
 
-**!\[Ana Sayfa](image/anasayfa.png)**
+**Kategoriye Göre Filtreleme**
+![Kategoriye Göre Filtreleme](image/filmkategori.png)
 
+---
 
+### 2. Veritabanı Yapısı (MySQL / phpMyAdmin)
 
-**\*\*Bölge ve Mekan Türüne Göre Filtreleme\*\***
+**Filmler Tablosu**
+![Filmler Tablosu](image/filmler.png)
 
-**!\[Arama Filtreleme](image/filtre.png)**
+**Oyuncular Tablosu (Uzun Biyografiler)**
+![Oyuncular Tablosu](image/oyunculartablo.png)
 
+**Film_Oyunculari (İlişki / Ara Tablo)**
+![Film Oyunculari Ara Tablo](image/aratablo.png)
 
-
-**\*\*Şehir Detay Sayfası (Mekanlar ve Aktif Rehberler)\*\***
-
-**!\[Şehir Detay](image/sehirdetay.png)**
-
-
-
-**\*\*Mekan Detay ve Planlanan Etkinlikler\*\***
-
-**!\[Mekan Detay](image/mekandetay.png)**
-
-
-
-**\*\*Dinamik Şehir Bağlantılı Yeni Mekan Ekleme Formu\*\***
-
-**!\[Mekan Ekleme](image/mekanekleme.png)**
-
-
-
-**---**
-
-
-
-**### 2. Veritabanı Yapısı (PostgreSQL / pgAdmin)**
-
-
-
-**\*\*Sehirler Tablosu\*\***
-
-**!\[Sehirler Tablosu](image/sehirler.png)**
-
-
-
-**\*\*Mekanlar Tablosu (Tür Kısıtlamalı)\*\***
-
-**!\[Mekanlar Tablosu](image/mekanlar.png)**
-
-
-
-**\*\*Etkinlikler Tablosu\*\***
-
-**!\[Etkinlikler Tablosu](image/etkinlikler.png)**
-
-
-
-**\*\*Rehberler Tablosu\*\***
-
-**!\[Rehberler Tablosu](image/rehberler.png)**
-
-
-
-**\*\*Şehir - Rehber Eşleşme Tablosu (Many-to-Many İlişki)\*\***
-
-**!\[Şehir Rehber Eşleşme](image/sehirrehberesleme.png)**
-
-
-\##  Dosya ve Klasör Yapısı
-
+**Türler Tablosu**
+![Türler Tablosu](image/turler.png)
 
 
 ```text
