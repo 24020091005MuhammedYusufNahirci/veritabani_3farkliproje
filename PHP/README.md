@@ -5,16 +5,6 @@ Bu proje, "Veri Tabanı Yönetim Sistemleri" dersi kapsamında; PHP, MySQL ve il
 ## Proje Hakkında
 Sistem, filmler ile oyuncular arasındaki **Many-to-Many (Çoka Çok)** ilişkiyi ve yönetmen/türler ile olan **One-to-Many (Bire Çok)** ilişkileri başarıyla yönetir. Kullanıcı dostu karanlık tema (Dark Mode) arayüzü ile veritabanındaki verilere erişim, filtreleme ve yönetim imkanı sunar.
 
-
-
-##  Dosya ve Klasör Yapısı
-```text
-📦 PHP Proje Klasörü
- ┣ 📂 Film/              # PHP Kaynak Dosyaları ve style.css
- ┣ 📂 image/             # Ekran Görüntüleri (Arayüz ve Veritabanı)
- ┣ 📜 MySql.sql          # Veritabanı Export Dosyası (DDL & DML)
- ┗ 📜 README.md          # Proje Dökümantasyonu
-
 ## 📸 Uygulama Ekran Görüntüleri
 
 ### 1. Web Arayüzü (Frontend)
@@ -53,8 +43,12 @@ Sistem, filmler ile oyuncular arasındaki **Many-to-Many (Çoka Çok)** ilişkiy
 **Türler Tablosu**
 ![Türler Tablosu](image/turler.png)
 
-**Yönetmenler Tablosu**
-![Yönetmenler Tablosu](image/yonetmenler.png)
 
-**Genel Tablo Listesi**
-![Genel Tablo Listesi](image/tablo.png)
+##  Dosya ve Klasör Yapısı
+```text
+📦 PHP Proje Klasörü
+ ┣ 📂 Film/              # PHP Kaynak Dosyaları ve style.css
+ ┣ 📂 image/             # Ekran Görüntüleri (Arayüz ve Veritabanı)
+ ┣ 📜 MySql.sql          # Veritabanı Export Dosyası (DDL & DML)
+ ┗ 📜 README.md          # Proje Dökümantasyonu
+
