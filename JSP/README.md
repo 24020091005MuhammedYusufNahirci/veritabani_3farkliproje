@@ -25,6 +25,8 @@ Sistem; şehirleri, buralarda gezilmesi gereken mekanları, bu mekanlarda düzen
 \- \*\*Arama ve Gelişmiş Filtreleme:\*\* Kullanıcıların coğrafi bölgelere veya doğrudan mekan türlerine (Müze/Park/Restoran) göre arama yapmasını sağlayan dinamik sonuç sayfası.
 
 
+
+
 **##  Uygulama Ekran Görüntüleri**
 
 
