@@ -25,46 +25,43 @@ Sistem; şehirleri, buralarda gezilmesi gereken mekanları, bu mekanlarda düzen
 \- \*\*Arama ve Gelişmiş Filtreleme:\*\* Kullanıcıların coğrafi bölgelere veya doğrudan mekan türlerine (Müze/Park/Restoran) göre arama yapmasını sağlayan dinamik sonuç sayfası.
 
 
-
-
 ## 📸 Uygulama Ekran Görüntüleri
 
 ### 1. Web Arayüzü (Frontend)
 
-**Ana Sayfa - Film Vitrini**
+**Ana Sayfa - Şehir Listesi**
 ![Ana Sayfa](image/anasayfa.png)
 
-**Film Detay Sayfası (Yönetmen & Oyuncu Kadrosu)**
-![Film Detay](image/filmdetay.png)
+**Bölge ve Mekan Türüne Göre Filtreleme**
+![Arama Filtreleme](image/filtre.png)
 
-**Tüm Oyuncular Listesi**
-![Tüm Oyuncular Listesi](image/oyuncular.png)
+**Şehir Detay Sayfası (Mekanlar ve Aktif Rehberler)**
+![Şehir Detay](image/sehirdetay.png)
 
-**Oyuncu Profil ve Biyografi Sayfası**
-![Oyuncu Profil ve Biyografi](image/oyuncudetay.png)
+**Mekan Detay ve Planlanan Etkinlikler**
+![Mekan Detay](image/mekandetay.png)
 
-**Film Düzenleme Formu**
-![Film Düzenleme Formu](image/düzenleme.png)
-
-**Kategoriye Göre Filtreleme**
-![Kategoriye Göre Filtreleme](image/filmkategori.png)
+**Dinamik Şehir Bağlantılı Yeni Mekan Ekleme Formu**
+![Mekan Ekleme](image/mekanekleme.png)
 
 ---
 
-### 2. Veritabanı Yapısı (MySQL / phpMyAdmin)
+### 2. Veritabanı Yapısı (PostgreSQL / pgAdmin)
 
-**Filmler Tablosu**
-![Filmler Tablosu](image/filmler.png)
+**Sehirler Tablosu**
+![Sehirler Tablosu](image/sehirler.png)
 
-**Oyuncular Tablosu (Uzun Biyografiler)**
-![Oyuncular Tablosu](image/oyunculartablo.png)
+**Mekanlar Tablosu (Tür Kısıtlamalı)**
+![Mekanlar Tablosu](image/mekanlar.png)
 
-**Film_Oyunculari (İlişki / Ara Tablo)**
-![Film Oyunculari Ara Tablo](image/aratablo.png)
+**Etkinlikler Tablosu**
+![Etkinlikler Tablosu](image/etkinlikler.png)
 
-**Türler Tablosu**
-![Türler Tablosu](image/turler.png)
+**Rehberler Tablosu**
+![Rehberler Tablosu](image/rehberler.png)
 
+**Şehir - Rehber Eşleşme Tablosu (Many-to-Many İlişki)**
+![Şehir Rehber Eşleşme](image/sehirrehberesleme.png)
 
 ```text
 
