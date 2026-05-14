@@ -22,7 +22,7 @@ Sistem, filmler ile oyuncular arasındaki **Many-to-Many (Çoka Çok)** ilişkiy
 ![Oyuncu Profil ve Biyografi](image/oyuncudetay.png)
 
 **Film Düzenleme Formu **
-![Film Düzenleme Formu](image/duzenleme.png)
+![Film Düzenleme Formu](image/düzenleme.png)
 
 **Kategoriye Göre Filtreleme**
 ![Kategoriye Göre Filtreleme](image/filmkategori.png)
